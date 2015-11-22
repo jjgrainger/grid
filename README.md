@@ -11,6 +11,11 @@ Another responsive CSS grid with flexible, nestable columns
 * no `.first` or `.last` classes
 * `.flow-reverse` class to change order of content on larger/small devices
 
+## Install with Bower
+
+```
+$ bower install --save jjgrainger-grid
+```
 
 ## Basic usage
 
@@ -51,7 +56,7 @@ You can use flow reverse to display content first on mobile but appear on the ri
         ...
     </div>
     <div class="column two-thirds">
-        ../
+        ...
     </div>
 </div>
 ```

@@ -1,0 +1,21 @@
+{
+  "name": "jjgrainger-grid",
+  "homepage": "https://github.com/jjgrainger/grid",
+  "authors": [
+    "jjgrainger <josephgrainger@gmail.com>"
+  ],
+  "description": "CSS grid with flexible, nestable columns",
+  "main": "grid.css",
+  "moduleType": [],
+  "keywords": [
+    "css",
+    "grid",
+    "responsive"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "README.md",
+    "index.html",
+    "style.css"
+  ]
+}

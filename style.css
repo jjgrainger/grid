@@ -16,91 +16,91 @@ article, aside, canvas, details, embed,
 figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
-	display: block;
+  display: block;
 }
 body {
-	line-height: 1;
+  line-height: 1;
 }
 ol, ul {
-	list-style: none;
+  list-style: none;
 }
 blockquote, q {
-	quotes: none;
+  quotes: none;
 }
 blockquote:before, blockquote:after,
 q:before, q:after {
-	content: '';
-	content: none;
+  content: '';
+  content: none;
 }
 table {
-	border-collapse: collapse;
-	border-spacing: 0;
+  border-collapse: collapse;
+  border-spacing: 0;
 }
 
 
 html,
 body {
-	font-size: 100%;
-	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-	color: #666;
-	line-height: 1.5;
-	font-weight: normal;
-	padding: 1em 0;
-	font-weight: 400;
-	-webkit-font-smoothing: antialiased;
+  font-size: 100%;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #666;
+  line-height: 1.5;
+  font-weight: normal;
+  padding: 1em 0;
+  font-weight: 400;
+  -webkit-font-smoothing: antialiased;
 }
 
 body {
-	max-width: 960px;
-	margin: 0 auto;
+  max-width: 960px;
+  margin: 0 auto;
 }
 
 h1 {
-	font-size: 3em;
-	line-height: 1;
-	color: #444;
-	text-align: center;
+  font-size: 3em;
+  line-height: 1;
+  color: #444;
+  text-align: center;
 }
 
 .column span {
-	background: rgba(0, 0, 0, 0.1);
-	display: block;
-	padding: 1em;
-	text-align: center;
+  background: rgba(0, 0, 0, 0.1);
+  display: block;
+  padding: 1em;
+  text-align: center;
 }
 
 .center {
-	text-align: center;
+  text-align: center;
 }
 
 a {
-	color: #3d9ddd;
-	text-decoration: none;
+  color: #3d9ddd;
+  text-decoration: none;
 }
 
 a:hover {
-	text-decoration: underline;
+  text-decoration: underline;
 }
 
 @media(max-width: 600px) {
 
-	html,
-	body {
-		font-size: 12px;
-	}
+  html,
+  body {
+    font-size: 12px;
+  }
 
-	.column {
-		float: none;
-		width: 100%!important;
-	}
+  .column {
+    float: none;
+    width: 100%!important;
+  }
 }
